@@ -30,11 +30,10 @@ PORTION_1 = {
  }
  
  def naming_system
- starting_node = PORTION_1
- starting_node[:sub_category][:sub_category][:sub_category] = PORTION_2
-starting_node[:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_3
-starting_node[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
-
-starting_node
+  starting_node = PORTION_1
+  starting_node[:sub_category][:sub_category][:sub_category] = PORTION_2
+  starting_node[:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_3
+  starting_node[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
+  starting_node
 end
 naming_system
